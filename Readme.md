@@ -271,10 +271,7 @@ To recursively analyze a transaction:
 A heartfelt thank you to the incredible projects that inspired and taught me:
 
 - **[utxotrack by albertobsd](https://github.com/albertobsd/utxotrack)**  
-  Your innovative approach and clear documentation have been a constant source of inspiration. I truly learned a lot from you guys—from the bottom of my heart, thank you!
-
-- **[Shubsaini08](https://github.com/Shubsaini08)**  
-  Many thanks for your contributions and insights. Your work has significantly shaped my understanding and approach.
+  Your innovative approach and clear documentation have been a constant source of inspiration. I truly learned a lot from you guys—from the bottom of my heart, thank you! Your work has significantly shaped my understanding and approach.
 
 ---
 
