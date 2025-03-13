@@ -237,7 +237,7 @@ To simulate a real-time animation of the transaction digging process, click the 
 #### Address Mode
 To query data for a Bitcoin address:
 ```bash
-./bitcoin_explorer.py -a <Bitcoin_address> [-S]
+./utxo.py -a <Bitcoin_address> [-S]
 ```
 - `-a` or `--address`: Specify the Bitcoin address.
 - `-S` or `--save`: Optional flag to save output to a file in `utxdump/`.
@@ -245,7 +245,7 @@ To query data for a Bitcoin address:
 #### Transaction Digging Mode
 To recursively analyze a transaction:
 ```bash
-./bitcoin_explorer.py [network] <txid> <max_level> [-S]
+./utxo.py [network] <txid> <max_level> [-S]
 ```
 - `network`: Specify the network (`bitcoin` by default; use `testnet` as needed).
 - `<txid>`: Starting transaction ID.
@@ -256,12 +256,12 @@ To recursively analyze a transaction:
 
 - **Address Mode Example:**
   ```bash
-  ./bitcoin_explorer.py -a 1BoatSLRHtKNngkdXEeobR76b53LETtpyT -S
+  ./utxo.py -a 1BoatSLRHtKNngkdXEeobR76b53LETtpyT -S
   ```
 
 - **Transaction Digging Mode Example:**
   ```bash
-  ./bitcoin_explorer.py bitcoin a95e587f7ed6813b567c291f91db80785c5e5a3d73f97222f0d3dfcf04e988f3 2 -S
+  ./utxo.py bitcoin a95e587f7ed6813b567c291f91db80785c5e5a3d73f97222f0d3dfcf04e988f3 2 -S
   ```
 
 ---
